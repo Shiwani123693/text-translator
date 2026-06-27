@@ -1,16 +1,29 @@
-# React + Vite
+This is a simple multi-purpose web application built using React and Tailwind CSS.
+The main goal of this project is to translate English text into different languages and also provide a random string generator feature.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task 1: Translator
+Route: /translator
+Users can enter text in English and translate it into their preferred language
+Translation is implemented using RapidAPI
 
-Currently, two official plugins are available:
+## Task 2: Random String Generator
+Route: /generator
+Generates random strings on user action
+Built using React hooks:
+useState
+useEffect
+useCallback
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Task 3: Client-side Routing
+Routing is implemented using react-router-dom to navigate between different pages.
 
-## React Compiler
+Available pages:
+Translator (/translator)
+Random String Generator (/generator)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Getting Started
+To run this project locally:
+git clone https://github.com/Shiwani123693/text-translator.git
+cd text-translator
+npm install
+npm run dev
